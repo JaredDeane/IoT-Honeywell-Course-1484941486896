@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT Honeywell Course
+  host: IoT-Honeywell-Course
+  disk_quota: 1024M
+  services:
+  - IoT Honeywell Course-cloudantNoSQLDB
+  - IoT Honeywell Course-iotf-service
